@@ -56,6 +56,11 @@ worldcup2026-predictor/
 Typical 5-fold cross-validated accuracy: **~54–56%** on competitive matches.  
 (Baseline: always predict home win ≈ 45%. Predicting football is hard.)
 
+<img width="1512" height="809" alt="Screenshot 2026-06-07 at 12 11 26 AM" src="https://github.com/user-attachments/assets/f564daed-cdc4-4d21-a592-ea2c6096bd08" />
+<img width="1510" height="813" alt="Screenshot 2026-06-07 at 12 13 22 AM" src="https://github.com/user-attachments/assets/90be757a-2995-4b5e-83ff-94508a23f79e" />
+<img width="1512" height="708" alt="Screenshot 2026-06-07 at 12 13 08 AM" src="https://github.com/user-attachments/assets/458e7244-9eb0-48b7-85aa-3d9a7f9cecc2" />
+
+
 ## Limitations
 
 - ELO assumes a stationary rating system — team quality changes faster than the model adapts after injuries or coaching changes.
@@ -64,5 +69,3 @@ Typical 5-fold cross-validated accuracy: **~54–56%** on competitive matches.
 - Draw probability is the hardest class — the model tends to underweight it.
 - Small-nation matches are underrepresented in training data.
 
-
-<img width="1512" height="809" alt="Screenshot 2026-06-07 at 12 11 26 AM" src="https://github.com/user-attachments/assets/f564daed-cdc4-4d21-a592-ea2c6096bd08" />
