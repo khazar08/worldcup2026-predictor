@@ -73,11 +73,11 @@ Typical 5-fold cross-validated accuracy: **~54–56%** on competitive matches.
 
 ## Roadmap
 
-Add FIFA official rankings as an additional feature alongside ELO
-Weight recent matches more heavily than older ones (time-decay on training samples)
-Add a group stage simulator — run N Monte Carlo simulations of the full group stage and show qualification probabilities for all 48 teams
-Add a knockout bracket simulator through to the final
-Display team flags in the UI
-Add a "biggest upsets" view showing matches where the model's underdog actually won
-Experiment with XGBoost or a neural network to see if draw prediction improves
+- Add FIFA official rankings as an additional feature alongside ELO.
+- Weight recent matches more heavily than older ones (time-decay on training samples).
+- Add a group stage simulator — run N Monte Carlo simulations of the full group stage and show qualification probabilities for all 48 teams.
+- Add a knockout bracket simulator through to the final.
+- Display team flags in the UI.
+- Add a "biggest upsets" view showing matches where the model's underdog actually won.
+- Experiment with XGBoost or a neural network to see if draw prediction improves.
 
